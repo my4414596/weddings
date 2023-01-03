@@ -1,0 +1,58 @@
+.topright {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 20%;
+  }
+  .row {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0px;
+    
+  }
+  .colum {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .ro::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .topleft{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+  
+  .sathiya{
+    /* position: absolute; */
+    height: 20%;
+    width: auto;
+  }
+  body{
+    background-color: white;
+  }
